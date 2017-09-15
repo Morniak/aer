@@ -180,7 +180,7 @@
       <key code="39" action="m" />
       <key code="40" action="s" />
       <key code="41" action="n" />
-      <key code="42" action="ç" />
+      <key code="42" action="$" />
       <key code="43" action="g" />
       <key code="44" action="f" />
       <key code="45" action="'" />
@@ -296,7 +296,7 @@
       <key code="39" action="M" />
       <key code="40" action="S" />
       <key code="41" action="N" />
-      <key code="42" action="Ç" />
+      <key code="42" action="#" />
       <key code="43" action="G" />
       <key code="44" action="F" />
       <key code="45" action="?" />
@@ -411,7 +411,7 @@
       <key code="39" action="M" />
       <key code="40" action="S" />
       <key code="41" action="N" />
-      <key code="42" action="Ç" />
+      <key code="42" action="#" />
       <key code="43" action="G" />
       <key code="44" action="F" />
       <key code="45" action="'" />
@@ -526,7 +526,7 @@
       <key code="39" action="m" />
       <key code="40" action="s" />
       <key code="41" action="n" />
-      <key code="42" action="ç" />
+      <key code="42" action="$" />
       <key code="43" action="g" />
       <key code="44" action="f" />
       <key code="45" action="?" />
@@ -603,7 +603,7 @@
       <key code="1" action="ù" />
       <key code="2" action="diaeresis" />
       <key code="3" action="€" />
-      <key code="4" action="©" />
+      <key code="4" action="ç" />
       <key code="5" action="’" />
       <key code="6" action="\" />
       <key code="7" action="{" />
@@ -639,9 +639,9 @@
       <key code="37" action="®" />
       <key code="38" action="þ" />
       <key code="39" action="macron" />
-      <key code="40" action="$" />
+      <key code="40" action="ß" />
       <key code="41" action="tilde" />
-      <key code="42" action="#" />
+      <key code="42" action="–" />
       <key code="43" action="greek" />
       <key code="44" action="ogonek" />
       <key code="45" action="¿" />
@@ -718,7 +718,7 @@
       <key code="1" action="Ù" />
       <key code="2" action="abovedot" />
       <key code="3" action="currency" />
-      <key code="4" action="ſ" />
+      <key code="4" action="Ç" />
       <key code="5" action="horn" />
       <key code="6" action="" />
       <key code="7" action="‘" />
@@ -756,7 +756,7 @@
       <key code="39" action="º" />
       <key code="40" action="ẞ" />
       <key code="41" action="" />
-      <key code="42" action="commabelow" />
+      <key code="42" action="¶" />
       <key code="43" action="" />
       <key code="44" action="ª" />
       <key code="45" action="hook" />
@@ -833,7 +833,7 @@
       <key code="1" action="ù" />
       <key code="2" action="abovedot" />
       <key code="3" action="currency" />
-      <key code="4" action="ſ" />
+      <key code="4" action="ç" />
       <key code="5" action="horn" />
       <key code="6" action="" />
       <key code="7" action="‘" />
@@ -871,7 +871,7 @@
       <key code="39" action="º" />
       <key code="40" action="ß" />
       <key code="41" action="" />
-      <key code="42" action="commabelow" />
+      <key code="42" action="¶" />
       <key code="43" action="" />
       <key code="44" action="ª" />
       <key code="45" action="hook" />
@@ -948,7 +948,7 @@
       <key code="1" action="Ù" />
       <key code="2" action="diaeresis" />
       <key code="3" action="€" />
-      <key code="4" action="©" />
+      <key code="4" action="Ç" />
       <key code="5" action="’" />
       <key code="6" action="\" />
       <key code="7" action="{" />
@@ -984,9 +984,9 @@
       <key code="37" action="®" />
       <key code="38" action="Þ" />
       <key code="39" action="macron" />
-      <key code="40" action="$" />
+      <key code="40" action="ß" />
       <key code="41" action="tilde" />
-      <key code="42" action="#" />
+      <key code="42" action="–" />
       <key code="43" action="greek" />
       <key code="44" action="ogonek" />
       <key code="45" action="¿" />
@@ -1063,7 +1063,7 @@
       <key code="1" action="ù" />
       <key code="2" action="¨" />
       <key code="3" action="€" />
-      <key code="4" action="©" />
+      <key code="4" action="ç" />
       <key code="5" action="’" />
       <key code="6" action="\" />
       <key code="7" action="{" />
@@ -1099,9 +1099,9 @@
       <key code="37" action="®" />
       <key code="38" action="þ" />
       <key code="39" action="¯" />
-      <key code="40" action="$" />
+      <key code="40" action="ß" />
       <key code="41" action="~" />
-      <key code="42" action="#" />
+      <key code="42" action="–" />
       <key code="43" action="µ" />
       <key code="44" action="˛" />
       <key code="45" action="¿" />
@@ -1322,7 +1322,7 @@
       <key code="50" output="`" />
     </keyMap>
   </keyMapSet>
-
+  
 
   <actions>
 
@@ -5282,10 +5282,6 @@
     <action id="¨">
       <when state="none" output="¨"/>
       <when state="Multi_key" next="Multi_key_diaeresis"/>
-    </action>
-
-    <action id="©">
-      <when state="none" output="©"/>
     </action>
 
     <action id="ª">

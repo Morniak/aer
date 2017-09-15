@@ -4,9 +4,9 @@
 
 Les claviers américains (ANSI) disposent d'une touche de moins que les claviers Européens (ISO). Cela pose un problème avec la disposition BÉPO ou la touche manquante est la touche permettant d'écrire les symboles `$`et `#`.
 
-Cette disposition rend de nouveau accessible ces symboles via la couche `AltGR` respectivement sur les touches `S` et `Ç`.
+Cette disposition rend de nouveau accessible ces symboles en déplacant la touche manquante à la place de la touche `Ç`, et déplace le `ç` en `AltGR` + `c` et le `Ç` en `AltGR` + `C`.
 
-*Note: Cela implique le remplacements des symboles `ß` et `¸` inutiles pour la plupart des développeurs*.
+*Note: Cela implique la disparition du symbole `¸` inutile pour la plupart des développeurs*.
 
 ![layout simple](./simple/layout.png)
 
