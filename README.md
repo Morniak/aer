@@ -19,7 +19,7 @@ cp v1/osx/aer.keylayout /Library/Keyboard\ Layouts/
 ```
 ## V2
 
-![layout v2](./v1/layout.png)
+![layout v2](./v2/layout.png)
 
 Pour installer la disposition sur OSX :
 
